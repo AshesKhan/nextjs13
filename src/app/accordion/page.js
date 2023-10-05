@@ -84,7 +84,7 @@ const AccordianList = ({ title, subTitle, component }) => {
             Basic Information
           </Typography>
           <Typography
-            // variant="subtitle1"
+             variant="subtitle1"
             // className="title"
             sx={{
               padding: "0px 15px",
