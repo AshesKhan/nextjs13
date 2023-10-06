@@ -6,7 +6,7 @@ import React from "react";
 const UserLocation = () => {
   return (
     <div>
-      <h1>Get User's Geo Location By Java Script</h1>
+      <h1>Get Users Geo Location By Java Script</h1>
       <br/>
       <br/>
       <Link href="/">Go to Home Page</Link>

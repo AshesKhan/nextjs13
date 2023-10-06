@@ -38,6 +38,11 @@ export default function Home() {
       </button>
       <br/>
       <br/>
+      <button onClick={() => navigate("/loader")}>
+        Go To Loader Page
+      </button>
+      <br/>
+      <br/>
       <button onClick={() => navigate("/user-location")}>
         Go To User Location
       </button>

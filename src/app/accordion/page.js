@@ -15,10 +15,12 @@ import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 // import { blue, red } from "@mui/material/colors";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import BasicModal from "./modal";
 
 const AccordianList = ({ title, subTitle, component }) => {
   const [accordianExpanded, setAccordianExpanded] = React.useState(false);
   return (
+   <>
     <Accordion
       disableGutters
       sx={{
@@ -103,13 +105,11 @@ const AccordianList = ({ title, subTitle, component }) => {
 
       <AccordionDetails>
         {/* {component} */}
-        <h1>hi</h1>
-        <h1>hi</h1>
-        <h1>hi</h1>
-        <h1>hi</h1>
-        <h1>hi</h1>
+        <BasicModal/>
       </AccordionDetails>
+      
     </Accordion>
+   </>
   );
 };
 
