@@ -17,6 +17,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import BasicModal from "./modal";
 import FolderList from "./modal";
+import BasicCard from "./card";
 
 const AccordianList = ({ title, subTitle, component }) => {
   const [accordianExpanded, setAccordianExpanded] = React.useState(false);
@@ -111,7 +112,8 @@ const AccordianList = ({ title, subTitle, component }) => {
       </AccordionDetails>
      
     </Accordion>
-    <FolderList/>
+    
+    <BasicCard />
    </>
   );
 };

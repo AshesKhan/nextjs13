@@ -94,7 +94,7 @@ const items = [
   },
   {
     icon: <WorkIcon />,
-    primaryText: "",
+    primaryText: "Mickey",
     secondaryText: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",
     link: "/work",
     date: "Feb 15, 2020",
@@ -124,7 +124,9 @@ export default function FolderList() {
                 textDecoration: "none",
                 color: "inherit",
                 width: "100%",
+                padding:"10px",
               }}
+              sx={{mb:2,}}
             >
               <Box
                 sx={{
