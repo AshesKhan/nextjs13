@@ -1,4 +1,3 @@
-'use client'
 import { user } from "@/utility/db";
 import { NextResponse } from "next/server";
 
