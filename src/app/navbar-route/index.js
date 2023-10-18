@@ -48,6 +48,11 @@ const NavBar = () => {
       </button>
       <br />
       <br />
+      <button onClick={() => navigate("/users-client")}>
+        Go To User List
+      </button>
+      <br />
+      <br />
       <br />
       <br />
       <br />

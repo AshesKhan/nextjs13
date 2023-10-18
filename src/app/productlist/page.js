@@ -19,10 +19,10 @@ export default async function ProductList() {
       <Link href="/">Go to Home Page</Link>
 
       {products.map((item) => (
-        <div>
+        <>
           <h3>Name: {item.title}</h3>
           <Product price={item.price}/>
-        </div>
+        </>
       ))}
     </div>
   );
