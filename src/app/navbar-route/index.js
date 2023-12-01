@@ -24,6 +24,9 @@ const NavBar = () => {
       <Link href="/about">Go to About Page</Link>
       <br />
       <br />
+      <Link href="/add-product-mongoDb">Add Product</Link>
+      <br />
+      <br />
       <button onClick={() => navigate("/login")}>Go to Login Page</button>
       <br />
       <br />
@@ -48,9 +51,7 @@ const NavBar = () => {
       </button>
       <br />
       <br />
-      <button onClick={() => navigate("/users-client")}>
-        Go To User List
-      </button>
+      <button onClick={() => navigate("/users-client")}>Go To User List</button>
       <br />
       <br />
       <br />
