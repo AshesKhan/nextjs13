@@ -21,7 +21,7 @@ export default async function ProductList() {
       {products.map((item) => (
         <>
           <h3>Name: {item.title}</h3>
-          <Product price={item.price}/>
+          {/* <Product price={item.price}/> */}
         </>
       ))}
     </div>
